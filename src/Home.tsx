@@ -21,6 +21,7 @@ const Home = () => {
           <Link to="/images" className="game-link">🖼️ Image Emotion Challenge</Link>
           <Link to="/same-words" className="game-link">🍕 Same Words, Different Feels Game</Link>
         </div>
+        <p>Note: ChatGPT assisted in the creation of this site and some of the game content</p>
       </div>
     </div>
   )
