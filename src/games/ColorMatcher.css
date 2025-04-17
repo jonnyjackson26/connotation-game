@@ -1,0 +1,98 @@
+/* ColorMatcher.css */
+.color-game-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #eef2ff, #dbeafe);
+    padding: 2rem;
+  }
+  
+  .color-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .emotion-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .color-btn {
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #eee;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .color-btn .swatch {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  .color-btn:hover {
+    transform: scale(1.05);
+    background-color: #ddd;
+  }
+  
+  .color-btn.selected {
+    border-color: #2563eb;
+    background-color: #bfdbfe;
+  }
+  
+  .submit-btn {
+    background-color: #10b981;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #059669;
+  }
+  
+  .feedback {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  .feedback .correct {
+    font-weight: bold;
+    color: #10b981;
+  }
+  
+  .start-screen {
+    text-align: center;
+    padding: 4rem;
+    max-width: 600px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  .study-blurb {
+    font-size: 0.95rem;
+    background-color: #f0fdf4;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    color: #14532d;
+  }
+  

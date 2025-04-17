@@ -1,0 +1,93 @@
+/* TweetEmotionGame.css */
+.tweet-game-container {
+    min-height: 100vh;
+    background: linear-gradient(to top right, #f0fdfa, #e0f2f1);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  
+  .tweet-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .back-link {
+    color: #2563eb;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .tweet-set {
+    margin-bottom: 2rem;
+  }
+  
+  .tweet-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .tweet-btn {
+    padding: 0.75rem 1rem;
+    background-color: #f0fdfa;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .tweet-btn:hover {
+    background-color: #ccfbf1;
+  }
+  
+  .tweet-btn.selected {
+    background-color: #99f6e4;
+    border-color: #14b8a6;
+  }
+  
+  .submit-btn {
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0284c7;
+  }
+  
+  .feedback {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #374151;
+  }
+  .study-blurb {
+    font-size: 0.95rem;
+    background-color: #f1f5f9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    color: #334155;
+  }
+    .study-blurb {
+  font-size: 0.95rem;
+  background-color: #f1f5f9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  color: #334155;
+}

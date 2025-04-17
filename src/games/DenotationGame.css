@@ -1,0 +1,89 @@
+/* DenotationGame.css */
+.denotation-game-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #fef9c3, #fef3c7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .denotation-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-link {
+    color: #2563eb;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .pair-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .word-pair-block {
+    margin-bottom: 2rem;
+  }
+  
+  .word-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .word-btn {
+    padding: 0.5rem 1.25rem;
+    background-color: #f3f4f6;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .word-btn:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .word-btn.selected {
+    background-color: #dbeafe;
+    border-color: #3b82f6;
+  }
+  
+  .submit-btn {
+    background-color: #f59e0b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #d97706;
+  }
+  
+  .feedback {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #374151;
+  }
+  .study-blurb {
+    font-size: 0.95rem;
+    background-color: #fefce8;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    color: #44403c;
+  }
+  
