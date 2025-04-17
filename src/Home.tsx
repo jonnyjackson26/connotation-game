@@ -7,8 +7,8 @@ const Home = () => {
       <div className="home-card">
         <h1 className="home-title">🎯 The Connotation Game</h1>
         <p className="home-desc">
-          Welcome! This interactive website is part of <strong>Jonny Jackson's final project</strong> for 
-          <em> COMM 2110: Interpersonal Communication</em> with Professor Jared Haskell.
+          Welcome! This interactive website is part of Jonny Jackson's final project for 
+          COMM 2110: Interpersonal Communication with Professor Jared Haskell.
         </p>
         <p className="home-desc">
           The goal of this site is to explore how connotations, context, colors, and word choices shape emotional communication.

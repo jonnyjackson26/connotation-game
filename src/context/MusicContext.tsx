@@ -10,7 +10,7 @@ type MusicContextType = {
 const MusicContext = createContext<MusicContextType | undefined>(undefined)
 
 export const MusicProvider = ({ children }: { children: React.ReactNode }) => {
-  const audioRef = useRef(new Audio('/lagoon-lull.mp3'))
+    const audioRef = useRef(new Audio(`${import.meta.env.BASE_URL}lagoon-lull.mp3`))
   const [isPlaying, setIsPlaying] = useState(false)
   const [volume, setVolume] = useState(0.5)
 
